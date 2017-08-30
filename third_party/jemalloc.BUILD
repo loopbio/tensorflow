@@ -235,7 +235,7 @@ template_rule(
         ]),
         "#undef JEMALLOC_HAVE_BUILTIN_CLZ": "#define JEMALLOC_HAVE_BUILTIN_CLZ",
         "#undef JEMALLOC_USE_SYSCALL": "#define JEMALLOC_USE_SYSCALL",
-        "#undef JEMALLOC_HAVE_SECURE_GETENV": "#define JEMALLOC_HAVE_SECURE_GETENV",
+        # "#undef JEMALLOC_HAVE_SECURE_GETENV": "#define JEMALLOC_HAVE_SECURE_GETENV",
         "#undef JEMALLOC_HAVE_PTHREAD_ATFORK": "#define JEMALLOC_HAVE_PTHREAD_ATFORK",
         "#undef JEMALLOC_HAVE_CLOCK_MONOTONIC_COARSE": "#define JEMALLOC_HAVE_CLOCK_MONOTONIC_COARSE 1",
         # Newline required because of substitution conflicts.
@@ -266,7 +266,7 @@ template_rule(
         "#undef JEMALLOC_PROC_SYS_VM_OVERCOMMIT_MEMORY": "#define JEMALLOC_PROC_SYS_VM_OVERCOMMIT_MEMORY",
         "#undef JEMALLOC_HAVE_MADVISE": "#define JEMALLOC_HAVE_MADVISE",
         "#undef JEMALLOC_PURGE_MADVISE_DONTNEED": "#define JEMALLOC_PURGE_MADVISE_DONTNEED",
-        "#undef JEMALLOC_THP": "#define JEMALLOC_THP",
+        # "#undef JEMALLOC_THP": "#define JEMALLOC_THP",
         "#undef JEMALLOC_HAS_ALLOCA_H": "#define JEMALLOC_HAS_ALLOCA_H 1",
         # Newline required because of substitution conflicts.
         "#undef LG_SIZEOF_INT\n": "#define LG_SIZEOF_INT 2\n",
