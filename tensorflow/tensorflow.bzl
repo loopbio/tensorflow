@@ -971,7 +971,7 @@ def tf_custom_op_py_library(name,
 
 
 def tf_extension_linkopts():
-  return ['-lrt']  # No extension link opts
+  return []  # No extension link opts
 
 
 def tf_extension_copts():
