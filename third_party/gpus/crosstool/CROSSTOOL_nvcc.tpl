@@ -56,6 +56,10 @@ toolchain {
   cxx_flag: "-std=c++11"
   linker_flag: "-Wl,-no-as-needed"
   linker_flag: "-lstdc++"
+  # Hacky hacks, should localize better
+  linker_flag: "-lrt"
+  linker_flag: "-lpthread"
+  linker_flag: "-lm"
   linker_flag: "-B/usr/bin/"
 
 %{host_compiler_includes}
